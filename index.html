@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Recognition Website</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input[type="file"] {
+            background-color: #444;
+            border: none;
+            color: #fff;
+            padding: 10px;
+        }
+        input[type="submit"] {
+            background-color: #666;
+            border: none;
+            color: #fff;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    <div class="footer"></div>
+        <p>&copy; 2024 Face Recognition App Rouiba. All rights reserved.</p>
+        <p>Created and made by Zakaria Aouanouk </p>
+    </div>
+</body>
+</html>
